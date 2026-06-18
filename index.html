@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f5f7" />
+    <meta
+      name="description"
+      content="彭方的个人电子名片：程序员、学生、连续创业者、技术爱好者与极客。"
+    />
+    <meta property="og:title" content="彭方 | 个人电子名片" />
+    <meta
+      property="og:description"
+      content="学习 AI，观察科技，创造真正有用的产品。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./public/images/programmer.png" />
+    <link rel="icon" href="./public/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>彭方 | 个人电子名片</title>
+  </head>
+  <body>
+    <div class="site">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="返回首页">PF<span>.</span></a>
+        <nav class="nav-links" aria-label="主导航">
+          <a href="#identity">身份</a>
+          <a href="#journey">经历</a>
+          <a href="#resume">履历</a>
+          <a href="#contact">联系</a>
+          <div class="theme-picker" aria-label="选择网站主题">
+            <button
+              class="theme-dot"
+              type="button"
+              title="苹果白"
+              aria-label="切换到苹果白主题"
+              data-theme-choice="light"
+            >
+              <span style="background: #f5f5f7"></span>
+            </button>
+            <button
+              class="theme-dot"
+              type="button"
+              title="深空黑"
+              aria-label="切换到深空黑主题"
+              data-theme-choice="space"
+            >
+              <span style="background: #101014"></span>
+            </button>
+            <button
+              class="theme-dot"
+              type="button"
+              title="极光蓝"
+              aria-label="切换到极光蓝主题"
+              data-theme-choice="aurora"
+            >
+              <span style="background: #3757f5"></span>
+            </button>
+          </div>
+        </nav>
+        <button class="menu-button" type="button" aria-expanded="false" aria-label="打开导航">
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+
+      <main>
+        <section class="hero section-shell" id="top">
+          <div class="hero-orb hero-orb-one"></div>
+          <div class="hero-orb hero-orb-two"></div>
+          <p class="hero-kicker reveal">HELLO, I AM</p>
+          <h1 class="reveal reveal-delay-one">彭方<span class="hero-dot">。</span></h1>
+          <div class="role-list reveal reveal-delay-two" aria-label="职业身份">
+            <span>程序员</span>
+            <span>学生</span>
+            <span>连续创业者</span>
+            <span>技术爱好者与极客</span>
+          </div>
+          <p class="hero-summary reveal reveal-delay-three">
+            从软件工程到计算机科学，从 AI 应用编程到产品创造。我正在持续学习、深入行业，并寻找值得长期投入的创业方向。
+          </p>
+          <div class="hero-actions reveal reveal-delay-three">
+            <a class="button button-primary" href="#identity">认识我 <span aria-hidden="true">↓</span></a>
+            <a
+              class="button button-ghost"
+              href="https://github.com/IvanKnev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12 .7A11.5 11.5 0 0 0 8.4 23c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.2 1.2a11.1 11.1 0 0 1 5.8 0C17 4.7 18 5 18 5c.6 1.6.2 2.9.1 3.2.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .7Z"
+                />
+              </svg>
+              GitHub
+            </a>
+          </div>
+          <div class="scroll-hint" aria-hidden="true">
+            <span></span>
+            Scroll to explore
+          </div>
+        </section>
+
+        <section class="identity-section section-shell" id="identity">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">MULTIPLE IDENTITIES, ONE DIRECTION</p>
+              <h2>不断生长的我</h2>
+            </div>
+            <p>身份并非标签，而是我理解世界、创造价值的不同视角。</p>
+          </div>
+
+          <div
+            class="carousel"
+            role="region"
+            aria-roledescription="轮播图"
+            aria-label="彭方的四种身份"
+            tabindex="0"
+          >
+            <div class="carousel-track">
+              <article class="identity-slide" style="--slide-accent: #2997ff">
+                <div class="identity-copy">
+                  <p class="identity-index">01 / BUILD</p>
+                  <h3>程序员</h3>
+                  <p>用代码拆解问题，也用代码把想法变成可以真实体验的产品。</p>
+                  <span class="identity-line"></span>
+                </div>
+                <div class="identity-art">
+                  <div class="image-fallback" aria-hidden="true"><span>PF</span></div>
+                  <img
+                    src="./public/images/programmer.png"
+                    alt="彭方作为程序员的卡通插画"
+                    loading="eager"
+                    draggable="false"
+                  />
+                </div>
+              </article>
+              <article class="identity-slide" style="--slide-accent: #d99b24" aria-hidden="true">
+                <div class="identity-copy">
+                  <p class="identity-index">02 / LEARN</p>
+                  <h3>学生</h3>
+                  <p>保持好奇，持续补全认知地图。学习不是阶段，而是一种工作方式。</p>
+                  <span class="identity-line"></span>
+                </div>
+                <div class="identity-art">
+                  <div class="image-fallback" aria-hidden="true"><span>PF</span></div>
+                  <img
+                    src="./public/images/student.png"
+                    alt="彭方作为学生的卡通插画"
+                    loading="lazy"
+                    draggable="false"
+                  />
+                </div>
+              </article>
+              <article class="identity-slide" style="--slide-accent: #ff6b45" aria-hidden="true">
+                <div class="identity-copy">
+                  <p class="identity-index">03 / CREATE</p>
+                  <h3>连续创业者</h3>
+                  <p>从一人公司出发，验证真实需求，打磨产品，再与优秀的人一起走得更远。</p>
+                  <span class="identity-line"></span>
+                </div>
+                <div class="identity-art">
+                  <div class="image-fallback" aria-hidden="true"><span>PF</span></div>
+                  <img
+                    src="./public/images/founder.png"
+                    alt="彭方作为连续创业者的卡通插画"
+                    loading="lazy"
+                    draggable="false"
+                  />
+                </div>
+              </article>
+              <article class="identity-slide" style="--slide-accent: #8d67ff" aria-hidden="true">
+                <div class="identity-copy">
+                  <p class="identity-index">04 / EXPLORE</p>
+                  <h3>技术爱好者与极客</h3>
+                  <p>探索 AI、软件与硬件的边界，在快速变化的技术浪潮里保持动手能力。</p>
+                  <span class="identity-line"></span>
+                </div>
+                <div class="identity-art">
+                  <div class="image-fallback" aria-hidden="true"><span>PF</span></div>
+                  <img
+                    src="./public/images/geek.png"
+                    alt="彭方作为技术爱好者与极客的卡通插画"
+                    loading="lazy"
+                    draggable="false"
+                  />
+                </div>
+              </article>
+            </div>
+
+            <button class="carousel-arrow carousel-prev" type="button" aria-label="上一张">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path
+                  d="m15 18-6-6 6-6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </button>
+            <button class="carousel-arrow carousel-next" type="button" aria-label="下一张">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path
+                  d="m9 18 6-6-6-6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </button>
+
+            <div class="carousel-dots" role="tablist" aria-label="选择身份">
+              <button type="button" class="is-active" aria-label="查看程序员" aria-selected="true" role="tab"><span></span></button>
+              <button type="button" aria-label="查看学生" aria-selected="false" role="tab"><span></span></button>
+              <button type="button" aria-label="查看连续创业者" aria-selected="false" role="tab"><span></span></button>
+              <button type="button" aria-label="查看技术爱好者与极客" aria-selected="false" role="tab"><span></span></button>
+            </div>
+            <p class="sr-only" aria-live="polite">当前展示：程序员</p>
+          </div>
+        </section>
+
+        <section class="journey-section section-shell" id="journey">
+          <div class="section-heading section-heading-centered">
+            <div>
+              <p class="eyebrow">MY JOURNEY</p>
+              <h2>从学习，到创造</h2>
+            </div>
+            <p>每一段经历，都在为下一次选择积累判断力。</p>
+          </div>
+          <div class="timeline">
+            <div class="timeline-rail" aria-hidden="true"></div>
+            <article class="timeline-card">
+              <span class="timeline-node" aria-hidden="true">1</span>
+              <div class="timeline-meta"><span>本科</span><small>Foundation</small></div>
+              <h3>电子科技大学 · 软件工程</h3>
+              <p>建立系统的软件工程基础，GPA 3.72/4.0，曾获学业特等奖学金，并持续训练从需求分析到工程实现的完整能力。</p>
+              <div class="timeline-note">
+                <span>同期实践</span>
+                <strong>中国商飞 · 实习经历</strong>
+                <p>嵌合在本科阶段的真实业务实践，理解大型国有企业中的工程协作与产品落地。</p>
+              </div>
+            </article>
+            <article class="timeline-card">
+              <span class="timeline-node" aria-hidden="true">2</span>
+              <div class="timeline-meta"><span>硕士</span><small>Growth</small></div>
+              <h3>香港大学 · 计算机科学</h3>
+              <p>拓展计算机科学视野，在更开放的环境中深化技术认知与国际化思考。</p>
+            </article>
+            <article class="timeline-card">
+              <span class="timeline-node" aria-hidden="true">3</span>
+              <div class="timeline-meta"><span>现在</span><small>AI Native</small></div>
+              <h3>AI 应用编程与算法</h3>
+              <p>深入学习 AI 应用编程、Vibe Coding 与 AI 算法，探索新一代软件开发方式。</p>
+            </article>
+            <article class="timeline-card">
+              <span class="timeline-node" aria-hidden="true">4</span>
+              <div class="timeline-meta"><span>2026.07 起</span><small>Next</small></div>
+              <h3>深入科技行业</h3>
+              <p>计划进入科技大厂实践，观察行业现状与 AI 科技进展，寻找有价值的创业切入点。</p>
+            </article>
+            <article class="timeline-card">
+              <span class="timeline-node" aria-hidden="true">5</span>
+              <div class="timeline-meta"><span>未来</span><small>Vision</small></div>
+              <h3>从一人公司到产品团队</h3>
+              <p>自主创业，从一人公司起步，逐步组建团队，开发真正解决问题的软件与硬件产品。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="resume-section section-shell" id="resume">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">TECHNICAL RESUME</p>
+              <h2>技术履历</h2>
+            </div>
+            <p>把简历中的项目经历浓缩成可分享的技术亮点，重点展示工程能力、AI 应用和算法实践。</p>
+          </div>
+          <div class="resume-grid">
+            <article class="resume-card">
+              <div class="resume-card-head">
+                <span>商飞实习 · 智能研发产品部</span>
+                <small>软件开发助理 · 2025.02 - 2025.08</small>
+              </div>
+              <h3>C929 载荷处理与计算自动化框架软件项目</h3>
+              <p>将原 BI 平台的智能数据分析能力适配到 C929 载荷处理场景，聚焦数据解析、AI 图表配置生成、异步任务解耦与请求治理。</p>
+              <ul>
+                <li>设计后端 Prompt 模板，将用户数据与分析需求转化为可渲染的 JSON 图表配置和洞察结果，支撑前端可视化展示。</li>
+                <li>使用 Alibaba EasyExcel 解析 XLSX 并压缩为 CSV，提升单次输入数据容量并降低 AIGC Token 消耗。</li>
+                <li>引入 RabbitMQ 持久化消息与 Direct Exchange 路由，解耦 AI 处理流程，降低长任务阻塞与消息丢失风险。</li>
+                <li>基于 Redisson RateLimiter 实现分布式限流，约束单用户请求频率，防止恶意消耗系统资源。</li>
+              </ul>
+              <div class="stack-list">
+                <span>Java</span><span>Spring Boot</span><span>AIGC API</span><span>EasyExcel</span><span>RabbitMQ</span><span>Redis</span><span>Redisson</span>
+              </div>
+            </article>
+            <article class="resume-card">
+              <div class="resume-card-head">
+                <span>商飞实习 · AI 超级智能体</span>
+                <small>大模型应用与 RAG 工程</small>
+              </div>
+              <h3>商飞数字人“小 C”项目</h3>
+              <p>参与企业级 AI Agent 能力建设，围绕统一模型调用、多轮记忆、知识库检索增强和工具调用进行后端开发。</p>
+              <ul>
+                <li>基于 Spring AI 集成通义、Ollama 等大模型，封装统一调用接口，支持不同业务场景下的模型切换。</li>
+                <li>使用 MessageChatMemoryAdvisor 与 ChatMemory 维护多轮对话上下文，并通过 Kryo 序列化持久化历史，降低服务重启后的记忆丢失风险。</li>
+                <li>使用 MarkdownDocumentReader、KeywordMetadataEnricher、EmbeddingModel 与 PGvector 构建 RAG 文档处理、向量存储和语义检索链路。</li>
+                <li>结合 RetrievalAugmentationAdvisor、相似度阈值、元数据过滤和多查询改写，提升召回率与回答准确性。</li>
+                <li>开发文件操作、网页搜索、网页抓取、终端操作、资源下载、PDF 生成等工具调用能力，并通过 Spring AI MCP Server 接入 Pexels 图片搜索服务。</li>
+              </ul>
+              <div class="stack-list">
+                <span>Spring AI</span><span>RAG</span><span>PGvector</span><span>MCP</span><span>Kryo</span><span>Ollama</span><span>Tongyi</span>
+              </div>
+            </article>
+            <article class="resume-card">
+              <div class="resume-card-head">
+                <span>科研论文</span>
+                <small>共同第一作者（排名第一）· IEEE ICAESG 2025</small>
+              </div>
+              <h3>基于 LSTM 的短期电力负荷预测研究</h3>
+              <p>围绕 15 分钟粒度电力负荷数据构建轻量级 LSTM 预测模型，完成数据清洗、建模、评估与递归预测。</p>
+              <ul>
+                <li>使用 Pandas、箱线图与 IQR 方法处理时间索引、异常值和归一化，构建完整数据预处理流程。</li>
+                <li>设计长度为 16 的滑动窗口，将单变量时序转换为三维输入张量，并按 8:2 划分训练集与测试集。</li>
+                <li>基于 TensorFlow Dataset API、Keras LSTM、Adam 与 MAE 搭建训练管线，并用 ModelCheckpoint 保存最优权重。</li>
+                <li>使用 R²、均方根相对误差、损失曲线和预测对比图评估模型表现，并递归预测未来 48 个负荷点。</li>
+              </ul>
+              <div class="stack-list">
+                <span>Python</span><span>Pandas</span><span>TensorFlow</span><span>Keras</span><span>LSTM</span><span>Matplotlib</span><span>Seaborn</span>
+              </div>
+            </article>
+            <article class="resume-card">
+              <div class="resume-card-head">
+                <span>科研项目</span>
+                <small>中国科学院计算技术研究所 · 2024.07 - 2024.12</small>
+              </div>
+              <h3>面向硬件系统的深度学习图像识别研究</h3>
+              <p>围绕车道检测模型进行轻量化与精度优化，重点关注嵌入式或资源受限场景下的实时性与泛化能力。</p>
+              <ul>
+                <li>研究并优化车道检测算法，提升复杂场景下的鲁棒性、实时性和泛化能力。</li>
+                <li>引入量化与剪枝降低模型存储占用和计算复杂度，使模型更适合资源受限环境部署。</li>
+                <li>加入自注意力机制增强关键区域特征表达，改善细节保留与检测精度。</li>
+              </ul>
+              <div class="stack-list">
+                <span>Deep Learning</span><span>Computer Vision</span><span>Model Compression</span><span>Attention</span><span>Python</span>
+              </div>
+            </article>
+            <article class="resume-card">
+              <div class="resume-card-head">
+                <span>数学建模竞赛</span>
+                <small>华数杯全国大学生数学建模竞赛二等奖 · 核心成员</small>
+              </div>
+              <h3>基于遗传算法与 Wilcoxon 符号秩检验的多通道 LED 光谱研究</h3>
+              <p>面向五通道 LED 光谱优化，建立日间显色与夜间节律干扰的双场景模型，并使用统计检验验证优化效果。</p>
+              <ul>
+                <li>构建红、绿、蓝、暖白、冷白五通道 LED 的权重优化模型，兼顾色温、显色指数与褪黑素日光照度比约束。</li>
+                <li>基于全天太阳光谱数据建立“追踪日光”控制模型，通过滑动窗口和平滑约束实现动态光谱适配。</li>
+                <li>对 11 名参与者睡眠数据进行预处理，使用 Wilcoxon 符号秩检验与 Holm 校正验证优化照明效果。</li>
+                <li>使用 Python 完成数据处理、模型求解、统计检验与 SPD 曲线、收敛曲线等可视化。</li>
+              </ul>
+              <div class="stack-list">
+                <span>Python</span><span>Genetic Algorithm</span><span>Statistical Testing</span><span>Matplotlib</span><span>Optimization</span>
+              </div>
+            </article>
+          </div>
+          <div class="skills-strip" aria-label="技能概览">
+            <span>Python</span><span>Java</span><span>C / C++</span><span>Spring Boot</span><span>Spring AI</span><span>RAG</span><span>TensorFlow</span><span>MySQL / Redis</span>
+          </div>
+        </section>
+
+        <section class="contact-section section-shell" id="contact">
+          <div class="contact-card">
+            <div class="contact-glow"></div>
+            <p class="eyebrow">LET&apos;S BUILD SOMETHING</p>
+            <h2>下一件有趣的事，<br />也许可以一起创造。</h2>
+            <p class="contact-intro">
+              对 AI 应用、产品创新、软件与硬件创业感兴趣？欢迎和我交流。
+            </p>
+            <div class="contact-actions">
+              <a
+                class="contact-link"
+                href="https://github.com/IvanKnev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="contact-icon">
+                  <svg aria-hidden="true" viewBox="0 0 24 24">
+                    <path
+                      fill="currentColor"
+                      d="M12 .7A11.5 11.5 0 0 0 8.4 23c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.2 1.2a11.1 11.1 0 0 1 5.8 0C17 4.7 18 5 18 5c.6 1.6.2 2.9.1 3.2.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .7Z"
+                    />
+                  </svg>
+                </span>
+                <span><small>GitHub</small><strong>@IvanKnev</strong></span>
+                <span aria-hidden="true">↗</span>
+              </a>
+              <button class="contact-link" type="button" data-copy-qq="2210846296">
+                <span class="contact-icon">Q</span>
+                <span><small>QQ</small><strong>2210846296</strong></span>
+                <span aria-hidden="true">＋</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer section-shell">
+        <p>© 2026 Peng Fang</p>
+        <p>保持好奇，持续创造。</p>
+        <a href="#top">回到顶部 ↑</a>
+      </footer>
+    </div>
+
+    <script>
+      (function () {
+        var themeButtons = Array.prototype.slice.call(document.querySelectorAll("[data-theme-choice]"));
+        var nav = document.querySelector(".nav-links");
+        var menuButton = document.querySelector(".menu-button");
+        var themeMeta = document.querySelector('meta[name="theme-color"]');
+        var themeColors = { light: "#f5f5f7", space: "#101014", aurora: "#17265f" };
+
+        function getInitialTheme() {
+          var saved = localStorage.getItem("pf-theme");
+          if (saved === "light" || saved === "space" || saved === "aurora") return saved;
+          return window.matchMedia("(prefers-color-scheme: dark)").matches ? "space" : "light";
+        }
+
+        function setTheme(theme) {
+          document.documentElement.dataset.theme = theme;
+          localStorage.setItem("pf-theme", theme);
+          if (themeMeta) themeMeta.setAttribute("content", themeColors[theme]);
+          themeButtons.forEach(function (button) {
+            var active = button.dataset.themeChoice === theme;
+            button.classList.toggle("is-active", active);
+            button.setAttribute("aria-pressed", String(active));
+          });
+        }
+
+        themeButtons.forEach(function (button) {
+          button.addEventListener("click", function () {
+            setTheme(button.dataset.themeChoice);
+          });
+        });
+        setTheme(getInitialTheme());
+
+        if (menuButton && nav) {
+          menuButton.addEventListener("click", function () {
+            var open = !nav.classList.contains("is-open");
+            nav.classList.toggle("is-open", open);
+            menuButton.classList.toggle("is-open", open);
+            menuButton.setAttribute("aria-expanded", String(open));
+            menuButton.setAttribute("aria-label", open ? "关闭导航" : "打开导航");
+          });
+          nav.querySelectorAll("a").forEach(function (link) {
+            link.addEventListener("click", function () {
+              nav.classList.remove("is-open");
+              menuButton.classList.remove("is-open");
+              menuButton.setAttribute("aria-expanded", "false");
+              menuButton.setAttribute("aria-label", "打开导航");
+            });
+          });
+        }
+
+        var carousel = document.querySelector(".carousel");
+        var track = document.querySelector(".carousel-track");
+        var slides = Array.prototype.slice.call(document.querySelectorAll(".identity-slide"));
+        var dots = Array.prototype.slice.call(document.querySelectorAll(".carousel-dots button"));
+        var liveText = document.querySelector(".carousel .sr-only");
+        var titles = slides.map(function (slide) {
+          var heading = slide.querySelector("h3");
+          return heading ? heading.textContent : "";
+        });
+        var current = 0;
+        var paused = false;
+        var resumeTimer = null;
+        var pointerStart = null;
+
+        function updateCarousel(next) {
+          current = (next + slides.length) % slides.length;
+          if (track) track.style.transform = "translateX(-" + current * 100 + "%)";
+          slides.forEach(function (slide, index) {
+            slide.setAttribute("aria-hidden", String(index !== current));
+          });
+          dots.forEach(function (dot, index) {
+            var active = index === current;
+            dot.classList.toggle("is-active", active);
+            dot.setAttribute("aria-selected", String(active));
+          });
+          if (liveText) liveText.textContent = "当前展示：" + titles[current];
+        }
+
+        function move(step) {
+          updateCarousel(current + step);
+        }
+
+        function pauseTemporarily() {
+          paused = true;
+          if (resumeTimer) window.clearTimeout(resumeTimer);
+          resumeTimer = window.setTimeout(function () {
+            paused = false;
+          }, 8000);
+        }
+
+        dots.forEach(function (dot, index) {
+          dot.addEventListener("click", function () {
+            updateCarousel(index);
+            pauseTemporarily();
+          });
+        });
+
+        var prev = document.querySelector(".carousel-prev");
+        var next = document.querySelector(".carousel-next");
+        if (prev) {
+          prev.addEventListener("click", function () {
+            move(-1);
+            pauseTemporarily();
+          });
+        }
+        if (next) {
+          next.addEventListener("click", function () {
+            move(1);
+            pauseTemporarily();
+          });
+        }
+
+        if (carousel) {
+          carousel.addEventListener("mouseenter", function () { paused = true; });
+          carousel.addEventListener("mouseleave", function () { paused = false; });
+          carousel.addEventListener("focus", function () { paused = true; });
+          carousel.addEventListener("blur", function () { paused = false; });
+          carousel.addEventListener("keydown", function (event) {
+            if (event.key === "ArrowLeft") {
+              move(-1);
+              pauseTemporarily();
+            }
+            if (event.key === "ArrowRight") {
+              move(1);
+              pauseTemporarily();
+            }
+          });
+          carousel.addEventListener("pointerdown", function (event) {
+            pointerStart = event.clientX;
+            pauseTemporarily();
+          });
+          carousel.addEventListener("pointerup", function (event) {
+            if (pointerStart === null) return;
+            var distance = event.clientX - pointerStart;
+            if (Math.abs(distance) > 45) move(distance > 0 ? -1 : 1);
+            pointerStart = null;
+          });
+          carousel.addEventListener("pointercancel", function () {
+            pointerStart = null;
+          });
+        }
+
+        window.setInterval(function () {
+          if (!paused) move(1);
+        }, 5500);
+
+        var qqButton = document.querySelector("[data-copy-qq]");
+        if (qqButton) {
+          qqButton.addEventListener("click", function () {
+            var qq = qqButton.dataset.copyQq;
+            var strong = qqButton.querySelector("strong");
+            var suffix = qqButton.querySelector("span:last-child");
+
+            function showCopied() {
+              if (strong) strong.textContent = "已复制到剪贴板";
+              if (suffix) suffix.textContent = "✓";
+              window.setTimeout(function () {
+                if (strong) strong.textContent = qq;
+                if (suffix) suffix.textContent = "＋";
+              }, 1800);
+            }
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(qq).then(showCopied).catch(function () {
+                fallbackCopy(qq);
+                showCopied();
+              });
+              return;
+            }
+            fallbackCopy(qq);
+            showCopied();
+          });
+        }
+
+        function fallbackCopy(text) {
+          var input = document.createElement("textarea");
+          input.value = text;
+          input.style.position = "fixed";
+          input.style.opacity = "0";
+          document.body.appendChild(input);
+          input.select();
+          document.execCommand("copy");
+          input.remove();
+        }
+      })();
+    </script>
+  </body>
+</html>
