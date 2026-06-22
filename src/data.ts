@@ -131,7 +131,7 @@ export const resumeProjects: ResumeProject[] = [
     title: "C929 载荷处理与计算自动化框架软件项目",
     meta: "软件开发助理 · 2025.02 - 2025.08",
     description:
-      "将原 BI 平台的智能数据分析能力适配到 C929 载荷处理场景，聚焦数据解析、AI 图表配置生成、异步任务解耦与请求治理。",
+      "将智能数据分析能力适配到 C929 载荷处理场景，聚焦数据解析、AI 图表配置生成、异步任务解耦与请求治理。",
     points: [
       "设计后端 Prompt 模板，将用户数据与分析需求转化为可渲染的 JSON 图表配置和洞察结果，支撑前端可视化展示。",
       "使用 Alibaba EasyExcel 解析 XLSX 并压缩为 CSV，提升单次输入数据容量并降低 AIGC Token 消耗。",
