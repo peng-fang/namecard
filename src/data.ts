@@ -32,7 +32,7 @@ export type ResumeProject = {
 export const profile = {
   name: "彭方",
   englishName: "Peng Fang",
-  roles: ["程序员", "学生", "连续创业者", "技术爱好者与极客"],
+  roles: ["学生", "程序员", "连续创业者", "技术爱好者与极客"],
   summary:
     "从软件工程到计算机科学，从 AI 应用编程到产品创造。我正在持续学习、深入行业，并寻找值得长期投入的创业方向。",
   github: "https://github.com/IvanKnev",
@@ -42,20 +42,20 @@ export const profile = {
 
 export const identities: Identity[] = [
   {
-    eyebrow: "01 / BUILD",
-    title: "程序员",
-    description:
-      "用代码拆解问题，也用代码把想法变成可以真实体验的产品。",
-    image: "./images/programmer.png",
-    accent: "#2997ff",
-  },
-  {
-    eyebrow: "02 / LEARN",
+    eyebrow: "01 / LEARN",
     title: "学生",
     description:
       "保持好奇，持续补全认知地图。学习不是阶段，而是一种工作方式。",
     image: "./images/student.png",
     accent: "#d99b24",
+  },
+  {
+    eyebrow: "02 / BUILD",
+    title: "程序员",
+    description:
+      "用代码拆解问题，也用代码把想法变成可以真实体验的产品。",
+    image: "./images/programmer.png",
+    accent: "#2997ff",
   },
   {
     eyebrow: "03 / CREATE",
