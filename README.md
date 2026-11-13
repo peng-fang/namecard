@@ -1,4 +1,4 @@
-# 彭方的个人电子名片
+# pengfang的个人电子名片
 
 基于 React、TypeScript 与 Vite 构建的响应式个人网站。根目录 `index.html` 已额外做成普通静态页面，可以直接用浏览器打开。
 
